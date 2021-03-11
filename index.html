@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Messages</title>   
+    <script type="text/javascript" src="Main.js"></script>
+    <style>
+
+    body{
+        background-color:crimson;
+        color: cornsilk;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    div{
+        background-color: cornsilk;
+        color: crimson;
+        text-align: center;
+        font-size: xx-large;
+        padding:10px;
+    }
+
+    button{
+        border-radius: 10%;
+        background-color: bisque;
+        font-size: large;
+        color: crimson;
+        padding: 3px;
+    }
+
+    button:hover{
+        color:darkmagenta;
+    }
+
+    footer{
+        background-color:bisque;
+        color:crimson;
+        text-align: center;
+        padding: 15px;
+        font-size: x-large;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    </style>
+</head>
+<body>
+   <div>
+        <h1>Mixed Message Generator</h1>
+   </div>
+        
+        <button type="button" onclick="mixMessage()" >Click me to generate a random message</button>
+        <p id="mix"></p>
+    
+<footer>
+    This is a footer
+</footer>
+
+</body>
+</html>
